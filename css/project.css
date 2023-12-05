@@ -1,0 +1,170 @@
+.project-container{
+    position: relative;
+    margin-top: 10px;
+    width: 1090px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    top: 0; 
+
+}
+.left-col{
+    position: fixed;
+    margin-left: 1px;
+    border: 1px solid #303030;
+    border-radius: 24px;
+    width: 500px;
+    height: 560px;
+    background: #11121227;
+    z-index: 1;
+
+}
+.right-col{
+    overflow: hidden;
+    position: sticky;
+    margin-left: 520px;
+    will-change: transform;
+    margin-bottom: 20px;
+    width: 650px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.pr-j{
+  width: 550px;
+  height: 500px;
+  background: #111212;
+  border-radius: 36px;
+  border: 1px solid #191B1B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  justify-content: flex-end;
+
+}
+.project-1-title, .project-2-title, .project-3-title, .project-4-title, .project-5-title{
+    margin: 0;
+    margin-left: 28px;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #F2F3F6;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.project-1-title span{
+    margin: 0;
+
+}
+.web-icon{
+    height: 25px;
+    width: 25px;
+}
+
+.h-project{
+    position: fixed;
+    top: 0px;
+    right: -142px;
+
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+
+    
+}
+.project-1-image{
+    width: 530px;
+    height: 380px;
+    border-radius: 30px;
+    background-image: url(../images/edesgnweb.svg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    margin: 10px;
+}
+.project-2-image{
+    width: 550px;
+    height: 380px;
+    border-radius: 16px;
+    background-image: url(../images/shopify.svg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.project-3-image{
+    width: 550px;
+    height: 380px;
+    border-radius: 16px;
+    background-image: url(../images/coffeee.svg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.project-1-info, .project-2-info, .project-3-info, .project-4-info, .project-5-info{
+    margin-left: 30px;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+.project-1-info span{
+    font-size: 12px;
+    color: #ABABAB;
+    font-weight: 300;
+}
+.project-2-info span{
+    font-size: 12px;
+    color: #ABABAB;
+    font-weight: 300;
+}
+.project-3-info span{
+    font-size: 12px;
+    color: #ABABAB;
+    font-weight: 300;
+}
+.s-btn-1, .s-btn-2, .s-btn-3{
+    padding: 10px;
+    background: #090A0A;
+    border-radius: 6px;
+}
+.right-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #111212;
+    position: absolute;
+    top: 328px;
+    right: 8px;
+    cursor: pointer;
+}
+.r-a-icon{
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.project-liner{
+    width: 100%;
+    margin: 0;
+    height: 1.2px;
+    background: #191B1B;
+}
