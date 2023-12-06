@@ -313,7 +313,13 @@ footer{
     overflow: hidden;
     cursor: pointer;
 }
+.icon a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 .icon-effect {
     background:  rgba(88, 88, 88, 0.171); /* Transparent background */
     transition: transform ease-out 0.8s;
