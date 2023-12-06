@@ -314,8 +314,7 @@ footer{
     cursor: pointer;
 }
 .icon a{
-    text-decoration: none;
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
 
@@ -882,4 +881,42 @@ a{
 		opacity: 1;
 		transform: scale(1);
 	}
+}
+/* responsiveness of my website*/
+/* For phones */
+@media (max-width: 767px) {
+    /* Add your CSS rules for phones here */
+   .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+   }
+   .wrapper{
+    width: 500px;
+   }
+   header{
+    max-width: 500px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    justify-content: space-between;
+   }
+   .header-liner{
+    max-width: 767px;
+   }
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Add your CSS rules for tablets here */
+    
+}
+
+/* For PCs */
+@media (min-width: 1024px) {
+    /* Add your CSS rules for PCs here */
+   
 }
