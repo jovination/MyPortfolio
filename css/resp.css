@@ -39,6 +39,14 @@
         flex-direction: row;
         justify-content: space-between;
     } 
+    footer{
+      width: 100%;
+      height: 75px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  }
 }
 
  
@@ -46,12 +54,11 @@
 
 
 
-/* Styles for tablets */
+/* Styles for tablets 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   /* Add your CSS styles for tablets here */
-}
 
-/* Styles for PCs */
+
+/* Styles for PCs 
 @media only screen and (min-width: 1025px) {
   /* Add your CSS styles for PCs here */
-}
