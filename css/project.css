@@ -70,12 +70,12 @@
   width: 550px;
   height: 500px;
   background: #111212;
-  border-radius: 36px;
+  border-radius: 24px;
   border: 1px solid #191B1B;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   justify-content: flex-end;
 
 }
@@ -116,19 +116,18 @@
     
 }
 .project-1-image{
-    width: 530px;
+    width: 550px;
     height: 380px;
-    border-radius: 30px;
+    border-radius: 24px;
     background-image: url(../images/edesgnweb.svg);
     background-size: cover;
     background-position: top center;
     position: relative;
-    margin: 10px;
 }
 .project-2-image{
     width: 550px;
     height: 380px;
-    border-radius: 16px;
+    border-radius: 24px;
     background-image: url(../images/shopify.svg);
     background-size: cover;
     background-position: center;
@@ -138,7 +137,7 @@
 .project-3-image{
     width: 550px;
     height: 380px;
-    border-radius: 16px;
+    border-radius: 24px;
     background-image: url(../images/coffeee.svg);
     background-size: cover;
     background-position: center;
