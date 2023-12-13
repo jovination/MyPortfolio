@@ -907,12 +907,14 @@ a{
   .btn-s{
     margin: 0 auto;
     width: 145px;
-    color: #F0C37D;
+    color: #fff;
     height: 33.5px;
     padding: 2px;
     background: #1c1c1c;
     border: 1px solid #282828;
-    border-radius: 20px 
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 500;
   }
 
   #message{
@@ -920,5 +922,7 @@ a{
     width: 145px;
     height: 50px;
     border-radius: 10px;
+    border: none;
     border: 1px solid #303030;
+    
   }
