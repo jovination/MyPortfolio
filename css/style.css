@@ -893,12 +893,25 @@ a{
     background: #111212;
     border: 1px solid #282828;
     border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
   }
-
+.c-container{
+    height: 100%;
+    width: 145px;
+}
   .close {
     position: absolute;
     top: 10px;
     right: 10px;
     cursor: pointer;
   }
-  
+
+  #message{
+    background: #212121;
+    width: 145px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #303030;
+  }
