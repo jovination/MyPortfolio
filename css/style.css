@@ -897,15 +897,22 @@ a{
     justify-content: center;
     align-items: center;    
   }
-.c-container{
-    height: 100%;
-    width: 145px;
-}
+    
   .close {
     position: absolute;
     top: 10px;
     right: 10px;
     cursor: pointer;
+  }
+  .btn-s{
+    margin: 0 auto;
+    width: 145px;
+    color: #F0C37D;
+    height: 33.5px;
+    padding: 2px;
+    background: #1c1c1c;
+    border: 1px solid #282828;
+    border-radius: 20px 
   }
 
   #message{
