@@ -915,6 +915,13 @@ a{
     margin-left: 10px;
     font-size: 12px;
     font-weight: 500;
+    cursor: pointer;
+  }
+  .btn-s:hover{
+    background: #080808;
+    border: 1px solid #111212;
+    border-radius: 20px;
+    color: #fff;
   }
 
   #message{
@@ -942,3 +949,8 @@ a{
     font-size: 12px;
     font-weight: 500;
   }
+  .popup input[type="text"],
+.popup textarea {
+  width: 100%;
+  color: #fff; /* Set text color to white */
+}
