@@ -81,11 +81,21 @@
                             Web Development projects. Hit me up 
                             for a collab.                        
                         </p>
-                         <div class="button" >
+                         <div class="button" onclick="openPopup()">
                            <p class="contact-txt">Contact Me</p>
                             <img class="arrow-icon" src="images/iconarrow.svg" alt="">
                             </div>
-                         </button>
+
+                            <div class="popup" id="contactPopup">
+                                <span class="close" onclick="closePopup()">&times;</span>
+                                <p class="contact-txt">Contact Me</p>
+                                <form action="mailto:jovination791@gmail.com" method="post" enctype="text/plain">
+                                  <label for="message">Your Message:</label>
+                                  <textarea id="message" name="message" rows="4" required></textarea>
+                                  <br>
+                                  <input type="submit" value="Send">
+                                </form>
+                              </div>
                     </div>
                     </div>
                 </div>
@@ -272,38 +282,7 @@
        </footer>
        
     </div>
-<script>
-    // Get all the icon elements
-const icons = document.querySelectorAll('.icon');
 
-// Add a sonar effect to each icon on hover
-icons.forEach((icon) => {
-    const sonarEffect = document.createElement('div');
-    sonarEffect.classList.add('sonar-effect');
-    icon.appendChild(sonarEffect);
-
-    icon.addEventListener('mouseenter', () => {
-        const effect = icon.querySelector('.sonar-effect');
-        effect.style.animation = 'none';
-        void effect.offsetWidth; // Trigger reflow to restart animation
-        effect.style.animation = 'sonar 1s ease-out';
-    });
-});
-
-</script>
-   <script>
-    new SimpleBar(document.querySelector('.wrapper'));
-</script>
-<script>
-    function colorize() {
-  var hue = Math.random() * 360;
-  return "HSL(" + hue + ",100%,50%)";
-}
-
-$("#sonar-wave").on("webkitAnimationIteration oanimationiteration animationiteration", function(){
-  $(this).css("background-color", colorize());
-});
-
-</script>
+   <script src="script.js"></script>
 </body>
 </html>
