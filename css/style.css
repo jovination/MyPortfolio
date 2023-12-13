@@ -899,8 +899,8 @@ a{
   
   .close {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 14px;
+    right: 12px;
     cursor: pointer;
   }
   .btn-s{
@@ -925,4 +925,20 @@ a{
     border-radius: 10px;
     border: 1px solid #303030;
     
+  }
+  .txt-label{
+    margin: 0;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .contact-txt-1{
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-bottom: 16px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
   }
