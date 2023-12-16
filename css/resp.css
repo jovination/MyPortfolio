@@ -11,8 +11,6 @@
      }
      .wrapper{
          width: 100%;
-         margin-top: 10px;
-         padding: 0;
          margin: 0 auto;
          display: flex;
          justify-content: center;
@@ -20,9 +18,6 @@
      }
      .container{
          width: 450px;
-
-         padding: 0;
-         margin: 0 auto;
          display: flex;
          justify-content: center;
          align-items: center;
@@ -46,9 +41,19 @@
       align-items: center;
       gap: 10px;
   }
-  .header-liner{
-    width: 450px
+  .nav-bar{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      padding: 0 20px;
   }
+  .buy-me{
+     display: none;
+  }
+ 
 }
 
  
