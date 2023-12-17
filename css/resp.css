@@ -78,12 +78,12 @@
     gap: 20px;
   }
   .right-column{
+    width: 730px;
     display: flex;
     flex-direction: row;
     gap: 20px;
   }
   .bottom-row{
-    width: 720px;
     height: 100%;
   }
   .bottom-row-r{
