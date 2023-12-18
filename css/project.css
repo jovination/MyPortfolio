@@ -10,13 +10,8 @@
     top: 0; 
 
 }
-.h-project{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 90px;
-    z-index: 1;
-}
+
+
 .p-main{
     margin-top: 90px;
 }
@@ -115,8 +110,7 @@
 .h-project{
     position: fixed;
     top: 0px;
-    right: -142px;
-
+    right: -80px;
     width: 100%;
     height: 90px;
     display: flex;
