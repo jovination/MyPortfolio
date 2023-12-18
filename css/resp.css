@@ -113,23 +113,21 @@
 
  
 .navbar{
-  width: 100%;
   display: flex;
   align-items: center;
 }
 .footer-wrap{
- width: 100%;
+ width: 720px;
  height: 75px;
  display: flex;
  align-items: center;
 
 }
 header{
-  width: 100%;
+  width: 720px;
   display: flex;
   flex-direction: row;
-  gap: 0px;
-  
+  gap: 50px;;  
 }
 
  .header-liner,
