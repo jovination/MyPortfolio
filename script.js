@@ -24,6 +24,7 @@ function colorize() {
            effect.style.animation = 'sonar 1s ease-out';
        });
    });
+   
    //close popup window
    function openPopup() {
     document.getElementById("contactPopup").style.display = "block";
