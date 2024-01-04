@@ -51,7 +51,7 @@ body{
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background-image: url(../images/jovindp.jpg);
+    background-image: url(../images/jovindp.webp);
     background-size: cover;
     cursor: pointer;
 
@@ -272,22 +272,22 @@ footer{
     border-radius: 10px;
 }
 .iconx-1{
-    background: url(../images/figma-1.jpg);
+    background: url(../images/figma-1.webp);
     background-position: center;
     background-size: cover;   
 }
 .iconx-2{
-    background: url(../images/vs.png);
+    background: url(../images/vs.webp);
     background-position: center;
     background-size: cover;   
 }
 .iconx-3{
-    background: url(../images/notion-1.png);
+    background: url(../images/notion-1.webp);
     background-position: center;
     background-size: cover;   
 }
 .iconx-4{
-    background: url(../images/obsidian-icon.png);
+    background: url(../images/obsidian-icon.webp);
     background-position: center;
     background-size: cover;   
 }
@@ -411,7 +411,7 @@ footer{
     width: 148px;
     height: 112px;
     border-radius: 16px;
-    background-image: url(../images/map.jpg);
+    background-image: url(../images/map.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -624,7 +624,7 @@ footer{
     border-radius: 16px;
     border: 1px solid #303030;
     background: #212121;
-    background-image: url(../images/project.jpg);  
+    background-image: url(../images/project.webp);  
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -675,7 +675,7 @@ footer{
     border-radius: 16px;
     background: #1c1c1c;
     border: 1px solid #303030;
-    background-image: url(../images/uiuxdesign.png);  
+    background-image: url(../images/uiuxdesign.webp);  
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -731,7 +731,7 @@ footer{
 #ss5{
     display: flex;
     flex-direction: column;
-    background-image: url(../images/wallaper-1.jpg);
+    background-image: url(../images/wallaper-1.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
