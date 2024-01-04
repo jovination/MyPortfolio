@@ -520,6 +520,9 @@ footer{
         height: 9px;
         margin-right: 10px;
     }
+    &:focus{
+        outline: none;
+    }
 
 }
 .experience-box{
