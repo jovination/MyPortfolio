@@ -317,6 +317,8 @@ footer{
     align-items: center;
     overflow: hidden;
     cursor: pointer;
+   -webkit-tap-highlight-color: transparent;
+
 }
 .icon a{
      display: flex;
@@ -510,7 +512,15 @@ footer{
     align-items: center;
     justify-content: space-between;
     border: 1px solid #282828;
-    cursor: pointer;;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+
+
+    
+    &:focus{
+        outline: none;
+            }
     & .contact-txt{
         margin: 0;
         margin-left: 10px;
@@ -520,9 +530,7 @@ footer{
         height: 9px;
         margin-right: 10px;
     }
-    &:focus{
-        outline: none;
-    }
+ 
 
 }
 .experience-box{
@@ -634,6 +642,8 @@ footer{
     display: flex;
     align-items: flex-end;
     cursor: pointer;
+-webkit-tap-highlight-color: transparent;
+
 }
 .project-txt-details{
     margin: 15px 15px 15px 24px;
@@ -938,6 +948,8 @@ a{
     font-size: 12px;
     font-weight: 500;
     cursor: pointer;
+   -webkit-tap-highlight-color: transparent;
+
   }
   .btn-s:hover{
     background: #080808;
