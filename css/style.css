@@ -393,10 +393,9 @@ footer{
     justify-content: center;
     align-items:center;
     & .about-txt{
-        color: #FFFFFF;
-        margin: 0;
-        width: 95%;
-
+       margin: 0;
+       color: #9b9b9b;
+       width: 95%;
     }
   
 }
@@ -499,6 +498,8 @@ footer{
 }
 .mode-txt{
     margin: 0;
+    font-size: 12px;
+    color: #9b9b9b;
     margin-left: 10px;
 }
 .button{
@@ -986,8 +987,9 @@ a{
     font-size: 12px;
     font-weight: 500;
   }
-  .popup input[type="text"],
-.popup textarea {
-  width: 100%;
-  color: #fff; /* Set text color to white */
+ .popup input[type="text"],
+ .popup textarea {
+    width: 100%;
+    margin: 0;
+    color: #9b9b9b;
 }
