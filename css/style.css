@@ -124,11 +124,12 @@ footer{
     color: #5C5C5C;
     font-size: 12px;
     font-weight: 600;
-    & a{
-        color: #5C5C5C;
-        text-decoration: none;
     
-    }
+}
+.spiraxy-txt a{
+    color: #5C5C5C;
+    text-decoration: none;
+
 }
 .footer-wrap{
     width: 1090px;
