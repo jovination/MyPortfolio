@@ -126,11 +126,12 @@ footer{
     font-weight: 600;
     
 }
-.spiraxy-txt a{
+
+.url-jovin{
     color: #5C5C5C;
     text-decoration: none;
-
 }
+
 .footer-wrap{
     width: 1090px;
     display: flex;
