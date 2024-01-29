@@ -33,3 +33,7 @@ function colorize() {
   function closePopup() {
     document.getElementById("contactPopup").style.display = "none";
   }
+  function openLink() {
+    var link = document.querySelector('.btn_link').href;
+    window.open(link, '_blank');
+}
