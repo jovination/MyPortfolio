@@ -183,7 +183,7 @@ html{
 .github_link{
     width: 324px;
     margin: 0 auto;
-    height: 46px;
+    height: 48px;
     display: flex;
     flex-direction: row;
     gap: 20px;
