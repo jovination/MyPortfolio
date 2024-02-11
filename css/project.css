@@ -21,7 +21,7 @@ html{
     border: .6px solid #151515;
     border-radius: 40px;
     position: absolute;
-    bottom: 40px;
+    bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
