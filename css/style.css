@@ -339,13 +339,15 @@ footer{
     border: 1px solid #595959;
 }
 
-.icon-effect:hover {
+.icon-effect.active {
     background: transparent;
     transform: scale(0.95);
     color: #fff;
     z-index: 2;
     border: 2px solid #7a7a7a; /* Matching border color */
 }
+
+
 
 .icon-effect:before {
     content: '';
@@ -359,9 +361,18 @@ footer{
     border-radius: 50%;
 }
 
-.icon-effect:hover:before {
+
+.icon-effect.active:before {
     animation: sonarEffect 1.3s ease-out 75ms;
 }
+
+
+.icon-effect:hover:before {
+    opacity: 0.5;
+    transform: scale(1);
+    background: transparent; /* Transparent background */
+}
+
 
 @keyframes sonarEffect {
     0% {
