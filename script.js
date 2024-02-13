@@ -15,9 +15,7 @@ const colorize = () => {
   return `HSL(${hue},100%,50%)`;
 }
 
-$("#sonar-wave").on("webkitAnimationIteration oanimationiteration animationiteration", function(){
-  $(this).css("background-color", colorize());
-});
+
 
 new SimpleBar(document.querySelector('.wrapper'));
 
