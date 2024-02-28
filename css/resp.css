@@ -1,5 +1,5 @@
 /* Styles for phones */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     body{
         width: 100%;
         height: 100%;
@@ -8,6 +8,7 @@
      }
 
      main{
+      width: 100%;
       height: 100%;
       display: flex;
       justify-content: center;
@@ -64,7 +65,7 @@
 
  /*project-section*/
  .project-container{
-   width: 100%;
+   width: 360px;
    height: 100%;
    padding: 6px;
    display: flex;
@@ -72,8 +73,10 @@
    flex-direction: column;
    align-items: center;
    gap: 20px;
+   border-radius: 40px;
    flex-direction: column;
  }
+ 
 #header{
   width: 100%;
   display: flex;
@@ -82,7 +85,7 @@
   margin-left: 30px;
 }
 
-}
+
 
  
 
