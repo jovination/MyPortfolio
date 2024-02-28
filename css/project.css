@@ -100,11 +100,17 @@ html{
     width: 100%;
     height: 270px;
     border-radius: 30px;
-    background-image: url(../images/progpt.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
+}
+.proj_illu_01{
+    background-image: url(../images/progpt.png);
+
+}
+.proj_illu_02{
+    background-image: url(../images/todo.png);
 }
 .content_wrap{
     width: 100%;
