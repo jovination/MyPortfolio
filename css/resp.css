@@ -1,5 +1,5 @@
 /* Styles for phones */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     body{
         width: 100%;
         height: 100%;
@@ -58,7 +58,7 @@
   .buy-me{
      display: none;
   }
-  
+
  .header-liner,
  .footer-liner{
    width: 100%;
@@ -87,6 +87,7 @@
   margin-left: 15px;
 }
 
+}
 
 
  
@@ -156,21 +157,75 @@ header{
   align-items: center;
   margin: 0 auto;
   flex-direction: row;
-  gap: 50px;;  
+  gap: 50px; 
 }
 
  .header-liner,
  .footer-liner{
    width: 720px;
  }
-
+/* project section */
+.project-container{
+   width: 730px;
+   padding: 6px;
+   height: 100%;
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   gap: 20px;
+   border-radius: 40px;
+ }
+ #header{
+  width: 720px;
+ }
  
 
 }
 
  
+/*
 
-
-/* Styles for PCs 
 @media only screen and (min-width: 1025px) {
-  /* Add your CSS styles for PCs here */
+    body{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto; 
+     }
+     .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+      .right-column{
+        width: 730px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      .bottom-row{
+        height: 100%;
+      }
+      .bottom-row-r{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      main{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }  
+      }
+
+ */
