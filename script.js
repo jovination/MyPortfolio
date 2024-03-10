@@ -17,7 +17,7 @@ const colorize = () => {
 
 
 
-new SimpleBar(document.querySelector('.wrapper'));
+//new SimpleBar(document.querySelector('.wrapper'));
 
 const icons = document.querySelectorAll('.icon');
 
@@ -40,4 +40,29 @@ function openPopup() {
 
 function closePopup() {
   document.getElementById("contactPopup").style.display = "none";
+}
+let projectWrapperindex = 1;
+showProjects(projectWrapperindex);
+
+ function newProject(n) {
+  showProjects(projectWrapperindex += n);
+ }
+ function showProjects(n){
+  projectWrapper(projectWrapperindex = n);
+ }
+function showProjects(n) {
+  let i;
+  let projectWrapper = document.getElementsByClassName("project_wrapper");
+
+  if(n > projectWrapper.length){
+    projectWrapperindex = 1;
+  }
+  if(n < 1){
+    projectWrapperindex = projectWrapper.length;
+  }
+  for (i = 0; i < projectWrapper.length; i++) {
+    projectWrapper[i].style.display = "none";
+  }
+  projectWrapper[projectWrapperindex-1].setAttribute('style', '/* display: block; */');
+  
 }

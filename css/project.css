@@ -12,7 +12,7 @@ html{
     justify-content: start;
 }
 .project-container{
-    width: 1085px;
+    max-width: 1085px;
     height: 550px;
     border: .6px solid #151515;
     border-radius: 40px;
@@ -21,7 +21,18 @@ html{
     justify-content: center;
     gap: 5px;
     align-items: center;
+    position: relative;
+    margin: auto;
     
+}
+.project_wrapper{
+    width: 1085px;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 .left_col,
@@ -93,6 +104,7 @@ html{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+
 }
 .right-arr{
     width: 30px;
