@@ -979,16 +979,17 @@ footer{
   }
 
   #message{
+    outline: none;
+    resize: none;
     margin-left: 7px;
     background: #212121;
     width: 145px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 12px;
     font-weight: 300;
     height: 50px;
     border-radius: 10px;
     border: 1px solid #303030;
-    
   }
   .txt-label{
     margin: 0;
