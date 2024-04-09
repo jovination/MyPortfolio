@@ -1013,6 +1013,8 @@ footer {
 }
 
 #message {
+  outline: none;
+  resize: none;
   margin-left: 7px;
   background: #212121;
   width: 145px;
