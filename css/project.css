@@ -11,6 +11,7 @@ html {
 }
 
 .project-container {
+  overflow: hidden;
   max-width: 1085px;
   height: 550px;
   border: 0.6px solid #151515;
@@ -25,6 +26,7 @@ html {
 }
 
 .project_wrapper {
+  display: none;
   width: 1085px;
   height: 550px;
   display: flex;
