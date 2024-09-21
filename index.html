@@ -134,14 +134,12 @@
                                 <div class="c-container">
                                 <span class="close" onclick="closePopup()">&times;</span>
                                 <p class="contact-txt-1">Contact Me</p>
-                                <form action="https://formspree.io/f/mjvqnqng"
-                                method="POST">
-                                  <textarea placeholder="Contact or Email" id="contact" name="message" rows="1" required></textarea>
-                                  <textarea placeholder="Enter Your Message!!" id="message" name="message" rows="2" required></textarea>
-
-                                  <br>
-                                  <input class="btn-s" type="submit" value="Send">
-                                </form>
+                                <form id="contact-form">
+                                    <textarea placeholder="Contact or Email" id="contact" name="from_contact" rows="1" required></textarea>
+                                    <textarea placeholder="Enter Your Message!!" id="message" name="message" rows="2" required></textarea>
+                                    <br>
+                                    <input class="btn-s" type="submit" value="Send">
+                                  </form>
                             </div>
                               </div>
                     </div>
@@ -376,5 +374,25 @@
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
   </script>
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <<script type="text/javascript">
+    (function(){
+        emailjs.init('kaFSo5VT0IO2hhUZ3');  // Replace with your EmailJS Public Key
+    })();
+  
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();  // Prevent default form submission
+  
+        // Send email using EmailJS
+        emailjs.sendForm('service_8jp8zzi', 'template_7wc55je', this)
+        .then(function() {
+            alert('Message sent successfully!');
+        }, function(error) {
+            alert('Failed to send message. Error: ' + error);
+        });
+    });
+  </script>
+  
+  
 </body>
 </html>
