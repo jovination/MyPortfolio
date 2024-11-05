@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/resp.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <meta name="facebook-domain-verification" content="p35u9ozrvagy4l1mwtld6t0hwkhllz" />
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -45,7 +47,17 @@
 
         <div class="project-container">
             <div class="project_wrapper">
-            <div class="left_col">
+            <div 
+            data-aos="zoom-in-up"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+
+             class="left_col">
                 <div class="left_p_wrap">
 
                     <div class="proj_illu proj_illu_01"></div>
@@ -89,7 +101,16 @@
                     </div>
                 </div>
             </div>
-            <div class="center_col">
+            <div 
+            data-aos="zoom-in-up"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="75"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            class="center_col">
                 <div class="center_p_wrap">
                     <div class="proj_illu proj_illu_02"></div>
                     <div class="content_wrap">
@@ -133,7 +154,16 @@
                 </div>
 
             </div>
-            <div class="right_col">
+            <div 
+            data-aos="zoom-in-up"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="85"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            class="right_col">
                 <div class="upper_right_ui">
                     <div class="right_ui_01">
                         <a target="_blank"  href="https://github.com/jovination/shortify_url-shortner" class="github_link_01">
@@ -189,7 +219,16 @@
             </div>
         </div>
         <div class="project_wrapper">
-            <div class="left_col">
+            <div 
+            data-aos="zoom-in-up"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="60"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            class="left_col">
                 <div class="left_p_wrap">
 
                     <div class="proj_illu proj_illu_04"></div>
@@ -233,7 +272,16 @@
                     </div>
                 </div>
             </div>
-            <div class="center_col">
+            <div 
+            data-aos="zoom-in-up"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="75"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            class="center_col">
                 <div class="center_p_wrap">
                     <div class="proj_illu proj_illu_05"></div>
                     <div class="content_wrap">
@@ -260,7 +308,7 @@
     
                             </ul>
                            </div>
-                           <a target="_blank" href="https://github.com/jovination/To-Do-List-App" class="github_link">
+                           <a  target="_blank" href="https://github.com/jovination/To-Do-List-App" class="github_link">
                             <div class="github_icon">
                                 <img  class="github_icon-1" src="images/git.svg" alt="">
                             </div>
@@ -277,10 +325,18 @@
                 </div>
 
             </div>
-            <div class="right_col">
+            <div 
+            data-aos="zoom-in-up"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="85"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"class="right_col">
                 <div class="upper_right_ui">
                     <div class="right_ui_01">
-                        <a target="_blank"  href="https://github.com/jovination/shortify_url-shortner" class="github_link_01">
+                        <a target="_blank"  href="https://github.com/jovination" class="github_link_01">
                             <div class="github_icon">
                                 <img  class="github_icon-1" src="images/git.svg" alt="">
                             </div>
@@ -300,9 +356,10 @@
                     </div>
                 </div>
                 <div class="lower_right_ui">
+                    <!--
                     <div class="right_p_wrap_02">
                         <div class="upper_ui_wrap">
-                            <span class="txt-pro">Sho\\rtify</span>
+                            <span class="txt-pro">Shortify</span>
                             <a target="blank" href="http://shortify-url-shortner-qrcode-generator.onrender.com/" class="btn_view">
                                 <span  class="btn_link">View</span>
                             </a>
@@ -329,9 +386,11 @@
                            
                      </div>
                     </div>
+                -->
                 </div>
             </div>
         </div>
+        <!--
         <div class="project_wrapper">
             <div class="left_col">
                 <div class="left_p_wrap">
@@ -476,6 +535,7 @@
                 </div>
             </div>
         </div>
+        -->
     </div>
     </main>
     <footer>
@@ -494,5 +554,9 @@
  
 
 <script src="/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
