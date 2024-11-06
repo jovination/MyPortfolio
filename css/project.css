@@ -71,6 +71,9 @@ html {
   width: 342px;
   height: 456px;
   border-radius: 0px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .right_ui_01 {
